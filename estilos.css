@@ -1,0 +1,99 @@
+*, *::before , *::after{
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: nunito;
+    src: url(./fonts/Nunito-Regular.ttf) format('truetype');
+}
+
+body{
+    padding: 0;
+    margin: 0 auto;
+    font-family: nunito;
+    
+    
+}
+
+/* -------------- HEADER ---------------- */
+
+.header{
+    width: 1366px;
+    height: 100px;
+    margin: 0 auto;
+    /* background: wheat; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.contenedor-logo{
+    /* background: tomato; */
+    width: 50px;
+    height: 50px;
+}
+
+.menu-lista{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background: chocolate; */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+li{
+    list-style: none;
+}
+
+/* -------------- BANNER ---------------- */
+
+.banner{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10pt;
+    flex-direction: column;
+    background: cornflowerblue;
+    width: 100%;
+    height: 200px;
+    color: white;
+
+}
+.titulo-banner{
+    font-weight: 200;
+}
+.parrafo-banner{
+    width: 600px;
+    text-align: center;
+}
+
+/* -------------- BUSCADOR ---------------- */
+.search{
+    width: 940px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+}
+input{
+    width: 100%;
+    height: 30px;
+    background: rgb(235, 235, 235);
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.buscar{
+    color: rgb(0, 0, 0);
+}
+
+/* -------------- MAIN ---------------- */
+
+
